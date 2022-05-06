@@ -1,0 +1,63 @@
+#**tagline**
+
+***
+
+**TL;DR - This post is for the sole purpose of choosing a winner. If you commented in this [[Entry Thread]](link), you are entered in the drawing and don't need to do anything else. By 16:00 UTC, the winner will be selected. The Bitcoin (BTC) blockchain will be used to pick this winner. This can be verified at any device running Python 3.5, and you do not need to own Bitcoin in order to participate.**
+
+**Additionally, all information to replicate the Drawing at home is available on Dropbox and GitHub, scroll down for more information.**
+
+**Importantly, this post WILL NOT BE EDITED in order to keep the integrity of the Drawing. To verify this, there will not be an asterisk during the time passed since its creation. The winner will be announced in a stickied comment.**
+
+***
+
+**DISCLAIMER:** *Some of the information may be unrevised, but procedures are the same as prior draws. Thank you.*
+
+***
+
+**Discussion:**
+
+The **[Discussion]** Thread at /r/millionairemakersmeta is open. The thread also includes dates with RemindMe links for any upcoming **[Entry Thread]** posts of the season. All comments are welcome there for any inquiries.
+
+**[Discussion for Fall and Winter 2021-2022]:** https://old.reddit.com/r/millionairemakersmeta/comments/s42hgl/discussion_thread_for_rmillionairemakers/
+
+***
+
+**Explanation:**
+
+The Bitcoin (BTC) blockchain will be used to choose a winner. Once the time listed has passed, there will be an active check to determine the blockchain's winning hash. Like before, this subreddit will wait for the **3^rd Block** after the time (being 16:00 UTC) to select the winner.
+
+If a block is discovered by 15:59 UTC, it will not be counted towards the counter of three blocks. If it is discovered by 16:00:00 UTC, then it will decrease the counter. This can be checked by seeing the timestamp given to it by blockchain explorers.
+
+You can see how this subreddit will verify the winner by checking the GitHub repository, which also includes a back-up plan in case of an emergency.
+
+***
+
+**Standard Protocol:**
+
+*This post will not be edited!* This is to prevent tampering of the hash or files by any of the moderators. To prove this, look for the lack of an asterisk near the time since creation.
+
+To verify if a hash for a file is that of Draw #XX, upload the file of choice to a SHA-256 generator, and match it with its respective hash output. The result you receive should be the same as what is listed here.
+
+If you are interested in doing this for yourself, download Python 3.5 or better and follow the path to the folder labeled: *Draws/MMXX*
+
+***
+
+**Status Reports:**
+
+/u/MakerOfMillionaires will be commenting on the progress of the drawing via the comments, so other users can keep track of the progress. These comments will be pinned at the top of the post and be distinguished. Most likely, after 1:00 PM ET, the pinned comment will be announcing the winner.
+
+If you can run Python yourself and follow the instructions, you will be able to find the winner. Make sure the hash released from the blockchain and the total number of participants match with what is described below. In addition, thank you for your patience.
+
+***
+
+**Information Used For Draw #XX:**
+
+    GitHub Repository: https://github.com/lilfruini/CommentGathering-MillionaireMakers/tree/master/Draws/MMXX
+
+    SHA-256 of Comment IDs: CID_SHA256
+    SHA-256 of DQed Age: DQAGE_SHA256
+    SHA-256 of Multiple Posters: DQMULT_SHA256
+    SHA-256 of Truncated IDs: TRUNC_SHA256
+
+    Block Selection: The Third Bitcoin Block After DrawTime
+    Total Participants: trunc_length
